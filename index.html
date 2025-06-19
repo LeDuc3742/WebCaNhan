@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-text">
+        <p class="intro">XIN CHÀO, TÔI LÀ</p>
+        <h1 class="name">ĐỨC</h1>
+        <p class="subtitle">Sinh viên Ngành Công nghệ Thông tin.</p>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="avatar.png" alt="Duc avatar" class="avatar">
+      <h2 class="profile-name">Lê Minh Đức</h2>
+      <p class="info">Sinh viên năm 3<br>Công nghệ Thông tin<br>Trường Đại học Giao thông Vận tải Thành phố Hồ Chí Minh</p>
+      <p class="contact">leminhduc2623@gmail.com<br>(84+)-445-2623</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/mint_dzzz" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/minh.uc.946753" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://github.com/LeDuc3742" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <a href="#" class="btn-download">Download CV</a>
+    </div>
+  </section>
+
+  <nav class="navbar">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+    <button id="toggle-dark">🌓</button>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Tôi là một sinh viên đang theo học tại Trường Đại học Giao thông Vận tải Thành phố Hồ Chí Minh thuộc khóa K23.</p>
+      <p>Tôi có sở thích đi đến những nơi mới để hưởng ngoạn cảnh đẹp, thích được trải nghiệm các món ăn ngon và đặc biệt là niềm yêu thích với ngành công nghiệp game.</p>
+      <p>Thế mạnh của tôi chính là sự điềm tĩnh và đưa ra hướng giải quyết các vấn đề. Bên cạnh đó, tôi tự tin với khả năng lãnh đạo khi làm việc nhóm và tự tin trước 
+      đám đông nên được mọi người tin tưởng giao cho trách nhiệm trưởng nhóm.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>Short description of the project goes here.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>Another cool project you've worked on.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education & Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Trường Đại học Giao thông Vận tải Thành phố Hồ Chí Minh (UTH - University of Transport HoChiMinh city)</h3>
+          <p>Năm 3 - Ngành Công nghệ Thông tin</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Languages</h2>
+      <ul>
+        <li><i class="fas fa-code"></i> HTML/CSS/JS</li>
+        <li><i class="fas fa-paint-brush"></i> UI/UX Design</li>
+        <li><i class="fas fa-language"></i> English, Vietnamese</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Awards & Interests</h2>
+      <ul>
+        <li>None</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Le Minh Duc</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
